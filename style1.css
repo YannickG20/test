@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*adding font,padding to main components*/
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #007bdd;
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+
+p{
+    margin:10px 0;
+}
+
+/* adding css to classes*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.clr {
+    clear: both;
+}
+
+.large-heading {
+    font-size: 35px;
+}
+
+.medium-heading {
+    font-size: 32px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #1d1d1b;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #007bdd;
+    color: #1d1d1b;
+}
+
+.bg-dark {
+    background: #1d1d1b;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #1d1d1b;
+}
+
+.bg-principal {
+    background: #007bdd;
+    color: #1d1d1b;
+}
+
+.text-primary {
+    color: #007bdd;
+}
+
+
+/*adding css to register*/
+.register-btn {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    background: #333;
+    padding: 9px 12px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.register-btn:hover {
+    background: #007bdd;
+    color: #1d1d1b;
+}
+
+/* padding */
+.py-1{padding: 10px 0;}
+.py-2{padding: 20px 0;}
+.py-3{padding: 30px 0;}
+
+/* adding css to navigation bar on header*/
+#navbar {
+    background: #1d1d1b;
+    color: #f4f4f4;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    background: #1b1a1a;
+    color: #007bdd;
+}
+
+/* Apply CSS styles to limit the size of the image */
+.navbar-logo {
+    max-height: 65px;
+    margin-right: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: left;
+}
+
+#showcase {
+    background: url('images/IMG_1057.jpeg') no-repeat center top/cover;
+    height: 600px;
+}
+
+
+
+#showcase .showcase-content {
+    color:#fff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#showcase .showcase-content2 {
+    color:#fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+
+/* adding css to appointments page*/
+#showcase2 {
+    background: url('images/IMG_1057.jpeg') no-repeat center top/cover;
+    height: 600px;
+}
+
+#showcase2 .showcase2-content {
+    color:#fff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#showcase2 .showcase2-content2 {
+    color:#fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#showcase2 .showcase2-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase2 .showcase2-content p {
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+
+#showcase3 {
+    background: url('images/IMG_1057.jpeg') no-repeat center top/cover;
+    height: 500px;
+}
+
+#showcase3 .showcase-content3 {
+    color:#fff;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* adding css to services page*/
+#showcase_services {
+    background: url('images/moto1.jpeg') no-repeat center top/cover;
+    height: 600px;
+}
+
+#showcase_services .showcase_services-content {
+    color:#fff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#showcase_services .showcase_services-content2 {
+    color:#fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#showcase_services .showcase_services-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase_services .showcase_services-content p {
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+
+/* adding css to about page*/
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-content {
+    float: center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .btn {
+    text-align: center;
+}
+
+#home-info a {
+    text-align: center;
+}
+
+/* Set a grey background color and center the text*/
+.signin {
+    text-align: center;
+    font-size: 20px;
+}
+
+/* adding css to about page*/
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    min-height: 150;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100;
+}
+
+#about-info .info-center {
+    text-align: center;
+    float: center;
+    width: 50%;
+    min-height: 100;
+}
+
+#slider {
+    background: #f4f4f4;
+    height: 500px;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+#slider figure {
+    position: relative;
+    width: 900%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    float: left;
+    width: 11.1%;
+    height: 11.1%;
+}
+
+.container_slider {
+    margin: auto;
+    max-width: 800px;
+    max-height: 400px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+@keyframes slider {
+    0% {left: 0;}
+    11% {left: 0;}
+    20% {left: -100%;}
+    31% {left: -100%;}
+    40% {left: -200%;}
+    51% {left: -200%;}
+    60% {left: -300%;}
+    71% {left: -300%;}
+    80% {left: -400%;}
+    91% {left: -400%;}
+    100% {left: -500%;}
+}
+
+/* adding css to services */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+.box-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* adding css to footer */
+#footer {
+    background-color: #1d1d1b;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 20px;
+}
